@@ -1,2 +1,2 @@
 CONFLICT TEST
-Value = A
+Value = B
