@@ -14,9 +14,9 @@ function updateDisplay() {
     ? `${previousOperand} ${currentOperation}`
     : "";
 }
-
+// CLEAR FUNCTION FROM BRANCH ADDITION
 function clearAll() {
-  currentOperand = "0";
+  currentOperand = "A-reset";
   previousOperand = "";
   currentOperation = null;
   justEvaluated = false;
