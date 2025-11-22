@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Calculator | Lab Assignment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>Calculator</h1>
+      <p class="subtitle">Lab Assignment – Git & GitHub</p>
+    </header>
+
+    <main class="calculator-wrapper">
+      <div class="calculator">
+        <div class="calc-display">
+          <div class="calc-previous" id="previous-operand"></div>
+          <div class="calc-current" id="current-operand">0</div>
+        </div>
+
+        <div class="calc-keyboard">
+          <button class="btn btn-func" data-action="clear">AC</button>
+          <button class="btn btn-func" data-action="delete">DEL</button>
+          <button class="btn btn-func" data-action="sign">±</button>
+          <button class="btn btn-op" data-operation="÷">÷</button>
+
+          <button class="btn" data-number="7">7</button>
+          <button class="btn" data-number="8">8</button>
+          <button class="btn" data-number="9">9</button>
+          <button class="btn btn-op" data-operation="×">×</button>
+
+          <button class="btn" data-number="4">4</button>
+          <button class="btn" data-number="5">5</button>
+          <button class="btn" data-number="6">6</button>
+          <button class="btn btn-op" data-operation="-">−</button>
+
+          <button class="btn" data-number="1">1</button>
+          <button class="btn" data-number="2">2</button>
+          <button class="btn" data-number="3">3</button>
+          <button class="btn btn-op" data-operation="+">+</button>
+
+          <button class="btn btn-zero" data-number="0">0</button>
+          <button class="btn" data-number=".">.</button>
+          <button class="btn btn-equals" data-action="equals">=</button>
+        </div>
+      </div>
+
+      <section class="help-panel">
+        <h2>How to use</h2>
+        <ul>
+          <li>Click buttons or use your keyboard (0–9, +, -, *, /, Enter).</li>
+          <li>AC resets everything, DEL removes last digit.</li>
+          <li>± toggles sign of the current number.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <small>
+        Built for Git & GitHub lab assignment – Calculator Project
+      </small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
