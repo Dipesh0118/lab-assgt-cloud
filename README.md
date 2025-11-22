@@ -1,5 +1,5 @@
 # Calculator
 
-This project is for Git merge conflict demo.
+This project is for cloud subject merge conflict demo.
 
-Author = Dipesh 
+Author = Dipesh Bhattarai
